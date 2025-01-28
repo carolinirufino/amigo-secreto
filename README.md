@@ -1,59 +1,60 @@
-Amigo Secreto
-Descrição do Projeto
-"Amigo Secreto" é um projeto simples desenvolvido com HTML, CSS e JavaScript puro, que permite:
 
-Adicionar nomes à lista de amigos.
-Visualizar os amigos cadastrados.
-Sortear aleatoriamente um nome da lista.
-Este projeto é ideal para praticar conceitos básicos de manipulação do DOM, arrays e eventos no JavaScript.
+<body>
+  <h1>Amigo Secreto Beta 🎁</h1>
+  <p>
+    O <strong>Amigo Secreto Beta</strong> é uma aplicação web para realizar sorteios de Amigo Secreto de forma simples e interativa. 
+    Ideal para grupos de amigos, colegas de trabalho ou familiares, a plataforma gera os sorteios de maneira rápida e sem complicações.
+  </p>
 
-Funcionalidades
-Adicionar Amigos: Insira o nome de um amigo no campo de texto e clique no botão "Adicionar" para incluí-lo na lista.
-Exibir Lista de Amigos: Os nomes adicionados aparecem em uma lista visível na tela.
-Sortear Amigo: Clique no botão "Sortear Amigo" para escolher aleatoriamente um nome da lista. O resultado é exibido na tela.
-Validação Simples: Caso o campo de entrada esteja vazio, uma mensagem de alerta é exibida.
-Tecnologias Utilizadas
-HTML: Estrutura do conteúdo.
-CSS (opcional): Estilização básica (não incluído neste exemplo).
-JavaScript: Manipulação do DOM e lógica do sorteio.
-Como Usar
-Clone ou baixe este repositório:
-bash
-Copiar
-Editar
-git clone https://github.com/carolinirufino/amigo-secreto.git
-Abra o arquivo index.html no seu navegador.
-Demonstração
-Adicionar Amigos
-Digite o nome no campo de entrada.
-Clique em "Adicionar".
-O nome será exibido na lista.
-Sortear um Amigo
-Adicione pelo menos um nome à lista.
-Clique em "Sortear Amigo".
-O nome sorteado será exibido na tela.
-Capturas de Tela
-Tela Inicial
+  <h2>🛠 Tecnologias Utilizadas</h2>
+  <ul>
+    <li><strong>HTML5</strong></li>
+    <li><strong>CSS3</strong></li>
+    <li><strong>JavaScript</strong></li>
+    <li><strong>Vercel</strong> (para hospedagem)</li>
+  </ul>
 
-Adicionando Nomes
+  <h2>🚀 Funcionalidades</h2>
+  <ul>
+    <li>Criação de grupos para sorteios de Amigo Secreto.</li>
+    <li>Geração automática do sorteio entre os participantes.</li>
+    <li>Interface simples e intuitiva para os usuários.</li>
+    <li>Notificação para cada participante com o nome do seu amigo secreto.</li>
+  </ul>
 
-Resultado do Sorteio
+  <h2>🎮 Como Usar</h2>
+  <ol>
+    <li>Acesse o aplicativo <a href="https://amigo-secreto-beta-self.vercel.app/" target="_blank">clicando aqui</a>.</li>
+    <li>Crie um grupo e adicione os participantes.</li>
+    <li>Inicie o sorteio e aguarde a geração dos resultados.</li>
+    <li>Compartilhe o resultado com os participantes para que todos saibam quem tirou quem.</li>
+  </ol>
 
-Estrutura do Projeto
-arduino
-Copiar
-Editar
-amigo-secreto/
-├── index.html      # Arquivo principal do projeto
-├── app.js          # Lógica do JavaScript
-└── README.md       # Documentação do projeto
-Melhorias Futuras
-Adicionar um botão para limpar a lista de amigos.
-Implementar estilização com CSS para uma aparência mais profissional.
-Salvar a lista de amigos no armazenamento local do navegador para persistência de dados.
-Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+  <h2>📂 Estrutura do Projeto</h2>
+  <pre>
+📦 Projeto
+├── index.html      (Página inicial do sorteio)
+├── style.css       (Estilos do aplicativo)
+├── script.js       (Lógica de sorteio e funcionalidades interativas)
+  </pre>
 
-Licença
-Este projeto está licenciado sob a licença MIT. Sinta-se à vontade para usá-lo e modificá-lo como desejar. 😊
+  <h2>📢 Como Executar Localmente</h2>
+  <ol>
+    <li>Clone este repositório:</li>
+    <pre>
+git clone https://github.com/seu-usuario/seu-repositorio.git
+    </pre>
+    <li>Entre no diretório do projeto:</li>
+    <pre>
+cd amigo-secreto-beta
+    </pre>
+    <li>Abra o arquivo <code>index.html</code> no seu navegador.</li>
+  </ol>
 
+  <h2>✨ Contribuições</h2>
+  <p>Contribuições são bem-vindas! Se você tem sugestões ou melhorias para o projeto, envie um pull request ou abra uma issue.</p>
+
+  <h2>📜 Licença</h2>
+  <p>Este projeto está sob a licença MIT.</p>
+</body>
+</html>
